@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Xiaomi4",
-      "repo": "https://github.com/SonicBSV/android_kernel_xiaomi_markw-4.9",
-      "branch": "master",
-      "device": "markw",
-      "defconfig": "markw_defconfig"
+      "repo": "https://github.com/freak07/Kirisakura_Sagami",
+      "branch": "master_qcom_a13",
+      "device": "Sagami",
+      "defconfig": "kirisakura_defconfig"
     },
     "toolchains": [
       {
@@ -59,7 +59,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
